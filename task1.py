@@ -7,7 +7,6 @@ matplotlib.use("TkAgg")
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from matplotlib.figure import Figure
 
-
 def parse_fx(expr: str):
     x = sp.symbols('x')
     allowed = {
